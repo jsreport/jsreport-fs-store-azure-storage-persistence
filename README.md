@@ -1,4 +1,4 @@
-# jsreport-fs-store-aws-s3-persistence
+# jsreport-fs-store-azure-storage-persistence
 [![NPM Version](http://img.shields.io/npm/v/jsreport-fs-store-azure-storage-persistence.svg?style=flat-square)](https://npmjs.com/package/jsreport-fs-store-azure-storage-persistence)
 [![Build Status](https://travis-ci.org/jsreport/jsreport-fs-store-azure-storage-persistence.png?branch=master)](https://travis-ci.org/jsreport/jsreport-fs-store-azure-storage-persistence)
 
