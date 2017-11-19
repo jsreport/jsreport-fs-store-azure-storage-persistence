@@ -17,7 +17,13 @@ And alter jsreport configuration
   "persistence": {
     "name": "azure-storage",
     "accountName": "...",
-    "accountKey": "..."
+    "accountKey": "...",
+    // the rest is optional
+    "container": "jsreport",
+    "lock": {
+      "retry": 100,
+      "leaseDuration": 30
+    }
   }
 },	
 ```
