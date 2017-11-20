@@ -22,7 +22,8 @@ Create an azure storage account and copy account name and access key.  Then alte
     "container": "jsreport",
     "lock": {
       "retry": 100,
-      "leaseDuration": 30
+      "leaseDuration": 30,
+      "enabled": true
     }
   }
 },	
