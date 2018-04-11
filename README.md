@@ -7,13 +7,13 @@
 
 ## Installation
 
-> npm install jsreport-fs-store@next    
+> npm install jsreport-fs-store    
 > npm install jsreport-fs-store-azure-storage-persistence
 
 Create an azure storage account and copy account name and access key.  Then alter jsreport configuration:
 ```js
-"connectionString": { 
-  "name": "fs2",
+"store": { 
+  "provider": "fs",
   "persistence": {
     "name": "azure-storage",
     "accountName": "...",
