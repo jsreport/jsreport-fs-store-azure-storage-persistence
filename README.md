@@ -21,7 +21,7 @@ Create an azure storage account and copy account name and access key.  Then alte
       "provider": "azure-storage"
     }
   },
-  "fs-store-azure-storage-persistence", {
+  "fs-store-azure-storage-persistence": {
     "accountName": "...",
     "accountKey": "...",
     // the rest is optional
